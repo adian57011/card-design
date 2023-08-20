@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(254,156,169);
+    background: linear-gradient(125deg, rgba(254,156,169,1) 58%, rgba(242,123,218,1) 88%);
+}
+
+.card{
+    background: white;
+    height: 96vh;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 35%;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 15px;;
+}
+
+.image {
+
+    height: 25vh;
+    background-image: url("Untitled.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle{
+    height: 20vh;
+}
+.circle img{
+    width: 30%;
+    
+    border-radius: 50%;
+    position: relative;
+    left: 33%;
+    bottom: 33%;
+}
+
+.bar-icon img{
+    width: 10%;
+    position: relative;
+    left: 85%;
+}
+
+.card-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 5%;
+ 
+}
+.card-header span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.card-header p{
+    font-weight: lighter;
+    font-size: small;
+}
+
+.card-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 4%;
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    right: 10%;
+}
+.item1 h3,.item2 h3{
+    color:blue;
+}
+.item1 span,.item2 span{
+    color: grey;
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    left: 10%;
+
+}
+
+.card-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 2%;
+
+}
+.card-btn button{
+    width: 100%;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: yellow;
+    font-weight: bold;
+}
+.card-text{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 2%;
+}
